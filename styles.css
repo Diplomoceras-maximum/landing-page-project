@@ -195,3 +195,16 @@ h1 {
   margin-top: 16px;
   cursor: pointer;
 }
+
+footer {
+  background-color: #1f2937;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+}
+
+footer p {
+  font-size: 14px;
+  color: #f9faf8;
+}
