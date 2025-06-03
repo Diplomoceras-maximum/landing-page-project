@@ -126,6 +126,11 @@ h1 {
   object-fit: contain;
 }
 
+.info p {
+  font-size: 18px;
+  margin-top: 12px;
+}
+
 .quote-section {
   background-color: #e5e7eb;
   display: flex;
