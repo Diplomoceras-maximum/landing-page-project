@@ -151,3 +151,47 @@ h1 {
   color: #1f2937;
   font-weight: bold;
 }
+
+.cta-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5em 10em;
+}
+
+.cta-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #3882f6;
+  border-radius: 10px;
+  padding: 48px 96px;
+  gap: 32px;
+  flex: 1;
+}
+
+.cta-info {
+  flex: 1;
+}
+
+.cta-info h2 {
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.cta-info p {
+  color: #f9faf8;
+}
+
+.cta-container button {
+  background-color: #3882f6;
+  font-size: 18px;
+  color: #e5e7eb;
+  border: 3px solid #f9faf8;
+  padding: 8px 32px;
+  border-radius: 10px;
+  margin-top: 16px;
+  cursor: pointer;
+}
